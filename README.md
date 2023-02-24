@@ -5,7 +5,7 @@ This code performs exploratory data analysis (EDA) on a dataset using machine le
 Installation
 To use this code, you'll need to have Python 3.x installed on your system. You can clone the repository using the following command:
 
-git clone https://github.com/yourusername/machine-learning-eda.git
+git clone https://github.com/ironborn007/Gitpro/tree/master.git
 Once you've cloned the repository, you can install the necessary Python packages by running:
 
 pip install -r requirements.txt
