@@ -18,4 +18,11 @@ class DataAnalysis:
         
     def missing_values(self):
         return self.data.isnull().sum()
+    def correlation_matrix(self):
+        return self.data.corr()
+    
+    def standardize_data(self):
+        scaler = StandardScaler()
+        standardized_data = scaler.fit_transform(self.data)
+        return pd.DataFrame(standardized_data, columns=self.data.columns)
         
